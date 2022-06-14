@@ -1,0 +1,49 @@
+Configuración de Android Studio
+===============================
+
+File -> Settings -> "En la lupa escribimos Android Sdk"
+
+
+Crear un emulador de android 
+============================
+
+Settings -> About emulated device -> build number -> click 8 veces. "el modo developer"
+
+System -> Advanced -> Developer options -> "USB debugging" 
+
+
+
+Crear el aplicativo web de ionic
+================================
+
+- ionic build (se va crear la carpeta www)
+
+
+Comandos
+========
+
+- ionic capacitor add android
+- ionic capacitor copy android
+- ionic capacitor sync android
+
+
+ABRIR EL PROYECTO EN ANDROID STUDIO
+====================================
+
+FILE -> OPEN -> "Y BUSCAR EL DIRECTORIO Y SELECCIONAR LA CARPERTA ANDROID" ( Se comienza hacer las instalaciones de gradle)
+
+Corremos en el emulador "con el botón de play"
+
+y Deberiamos ver nuestra aplicación corriendo en el emulador
+
+LIVE RELOADING
+==============
+
+ipconfig -> 192.168.0.2
+
+
+ionic capacitor run android -l --host=192.168.0.2
+
+Dentro la lista el emulador de android
+
+
