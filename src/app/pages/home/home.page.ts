@@ -33,6 +33,11 @@ export class HomePage implements OnInit {
       icon:'card-outline',
       name: 'Card',
       redirectTo: '/card'
+    },
+    {
+      icon:'card',
+      name: 'Fab',
+      redirectTo: '/fab'
     }
   ];
 
