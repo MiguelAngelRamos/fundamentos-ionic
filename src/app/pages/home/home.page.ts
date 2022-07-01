@@ -28,6 +28,11 @@ export class HomePage implements OnInit {
       icon:'radio-button-off-outline',
       name: 'Button',
       redirectTo: '/button'
+    },
+    {
+      icon:'card-outline',
+      name: 'Card',
+      redirectTo: '/card'
     }
   ];
 
