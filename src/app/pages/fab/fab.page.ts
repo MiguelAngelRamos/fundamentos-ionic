@@ -12,4 +12,8 @@ export class FabPage implements OnInit {
   ngOnInit() {
   }
 
+  goToGoogle() {
+    window.location.href= 'https://www.google.cl'
+  }
+
 }
