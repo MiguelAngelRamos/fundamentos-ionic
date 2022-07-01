@@ -18,6 +18,16 @@ export class HomePage implements OnInit {
       icon: 'call-outline',
       name: 'contact',
       redirectTo: '/contact'
+    },
+    {
+      icon:'beaker-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar'
+    },
+    {
+      icon:'radio-button-off-outline',
+      name: 'Button',
+      redirectTo: '/button'
     }
   ];
 

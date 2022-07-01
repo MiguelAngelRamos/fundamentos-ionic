@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'contact',
     loadChildren: () => import('./pages/contact/contact.module').then( m => m.ContactPageModule)
   },
+  {
+    path: 'avatar',
+    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
+  },
+  { 
+    path: 'button',
+    loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
+  },
 ];
 
 @NgModule({
