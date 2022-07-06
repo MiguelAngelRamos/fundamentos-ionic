@@ -23,7 +23,7 @@ const routes: Routes = [
     path: 'avatar',
     loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
   },
-  { 
+  {
     path: 'button',
     loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
   },
@@ -34,6 +34,14 @@ const routes: Routes = [
   {
     path: 'fab',
     loadChildren: () => import('./pages/fab/fab.module').then( m => m.FabPageModule)
+  },
+  {
+    path: 'infinito',
+    loadChildren: () => import('./pages/infinito/infinito.module').then( m => m.InfinitoPageModule)
+  },
+  {
+    path: 'infinito-scroll-api',
+    loadChildren: () => import('./pages/infinito-scroll-api/infinito-scroll-api.module').then( m => m.InfinitoScrollApiPageModule)
   },
 ];
 

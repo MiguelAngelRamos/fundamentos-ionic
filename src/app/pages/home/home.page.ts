@@ -38,6 +38,16 @@ export class HomePage implements OnInit {
       icon:'card',
       name: 'Fab',
       redirectTo: '/fab'
+    },
+    {
+      icon:'infinite-outline',
+      name: 'Infinite-scroll',
+      redirectTo:'/infinito'
+    },
+    {
+      icon: 'globe-outline',
+      name: 'Infinito-Scroll-Api',
+      redirectTo:'/infinito-scroll-api'
     }
   ];
 
